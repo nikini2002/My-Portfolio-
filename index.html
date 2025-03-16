@@ -3,73 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- This links a CSS file for styling -->
+    <title>NIKINI SANDUPRABHA - Data Science Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm R.Y.N. Sanduprabha, a Data Analyst passionate about turning data into insights.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Details about my projects will go here.</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Python, SQL, Power BI, Machine Learning, etc.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: sanduprabha@example.com</p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/sanduprabha</a></p>
-        <p>GitHub: <a href="#">github.com/sanduprabha</a></p>
-    </section>
+    
+    <main>
+        <section class="hero">
+            <img src="images/your-photo.jpg" alt="NIKINI SANDUPRABHA" class="profile-photo">
+            <h1>Your Name</h1>
+            <h2>Data Analyst</h2>
+            <p>Brief introduction about yourself, your expertise, and your passion for data science.</p>
+        </section>
+        
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <!-- Add 2-3 featured projects here -->
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>Brief description of the project</p>
+                <a href="projects/project1.html">View Project</a>
+            </div>
+            <!-- Repeat for other featured projects -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    background: #444;
-}
-
-nav ul li {
-    margin: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background: white;
-    border-radius: 5px;
-}
 
