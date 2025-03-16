@@ -3,74 +3,287 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R.Y.N. Sanduprabha - Data Science Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>RYN Sanduprabha - Data Science Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">RYN Sanduprabha</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <main>
-        <section class="hero">
-            <img src="images/profile-photo.jpg" alt="R.Y.N. Sanduprabha" class="profile-photo">
-            <h1>R.Y.N. Sanduprabha</h1>
-            <h2>Data Analyst</h2>
-            <p>I am a passionate Data Analyst with expertise in transforming complex datasets into actionable business insights. With a strong background in data analysis, visualization, and machine learning, I help organizations make data-driven decisions that drive growth and efficiency.</p>
-        </section>
-        
-        <section class="featured-projects">
-            <h2>Featured Projects</h2>
-            
-            <!-- Featured Project 1 -->
-            <div class="project-card">
-                <h3>Smart HR: Automating Employee Attendance & Leave</h3>
-                <p>Developed an application and automated workflow to streamline attendance tracking and leave management processes for both employers and employees, including recording leave types, processing requests, and automating salary allocations.</p>
-                <a href="projects/smart-hr.html">View Project</a>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">RYN Sanduprabha</span></h1>
+                <h2>Data Analyst </h2>
+                <p>Transforming data into actionable insights and solutions</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
             </div>
-            
-            <!-- Featured Project 2 -->
-            <div class="project-card">
-                <h3>Crime Scope: Unmasking Trends in London's Crime Landscape</h3>
-                <p>Analyzed crime patterns and trends across Greater London over an 8-year period (2015-2023), identifying key distribution patterns and temporal changes in crime rates to support strategic policing decisions.</p>
-                <a href="projects/crime-scope.html">View Project</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- Replace with your image -->
+                    <img src="images/profile.jpg" alt="RYN Sanduprabha">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm a final year BSc in Applied Data Science student at General Sir Jhone Kothewala Defence University, and I am passionate about data analysis and automation. With experience in SQL, Python, Power BI, and R, I specialize in developing data-driven solutions that solve real-world problems.</p>
+                    <p>My background in data science has equipped me with the skills to extract meaningful insights from complex datasets and communicate findings effectively to stakeholders. I'm currently seeking opportunities as a Data Analyst to apply my technical skills and analytical mindset.</p>
+                    <div class="social-links">
+                        <a href="https://nikini2002.github.io/My-Portfolio-/ " target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="http://www.linkedin.com/in/rys-nikini" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="sandunry1024@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
             </div>
-            
-            <!-- Featured Project 3 -->
-            <div class="project-card">
-                <h3>Breathless Numbers: A Global Study on Lung Cancer Mortality</h3>
-                <p>Conducted comprehensive analysis of global lung cancer mortality rates from 1990-2019, examining geographical distributions, identifying trends, and visualizing patterns to support public health initiatives.</p>
-                <a href="projects/lung-cancer-study.html">View Project</a>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Smart HR Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart HR: Automating Employee Attendance & Leave</h3>
+                        <p>Developed an app and automated workflow streamlining attendance tracking and leave management, including recording leave types, processing requests, and allocating daily salaries.</p>
+                        <div class="project-tags">
+                            <span>Power Apps</span>
+                            <span>Power Automate</span>
+                            <span>Power BI</span>
+                        </div>
+                        <a href="projects/project1.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Real Estate Radar">
+                    </div>
+                    <div class="project-info">
+                        <h3>Real Estate Radar: Tracking UK Property Trends</h3>
+                        <p>Analyzed market price distribution in Greater Manchester's property market from 2019 to 2022, identifying key trends and patterns in the real estate sector.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Data Analysis</span>
+                            <span>Visualization</span>
+                        </div>
+                        <a href="projects/project2.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Crime Scope">
+                    </div>
+                    <div class="project-info">
+                        <h3>Crime Scope: Unmasking Trends in London's Crime Landscape</h3>
+                        <p>Analyzed crime trends and patterns across Greater London over an 8-year period (2015-2023), identifying geographical and temporal patterns in criminal activity.</p>
+                        <div class="project-tags">
+                            <span>R</span>
+                            <span>Statistical Analysis</span>
+                            <span>Data Visualization</span>
+                        </div>
+                        <a href="projects/project3.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project4.jpg" alt="Lung Cancer Study">
+                    </div>
+                    <div class="project-info">
+                        <h3>Breathless Numbers: A Global Study on Lung Cancer Mortality</h3>
+                        <p>Analyzed global lung cancer mortality rates, trends, and patterns from 1990 to 2019, identifying geographical and temporal variations in disease impact.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Statistical Analysis</span>
+                            <span>Geographic Visualization</span>
+                        </div>
+                        <a href="projects/project4.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project5.jpg" alt="Profit Pulse">
+                    </div>
+                    <div class="project-info">
+                        <h3>Profit Pulse: Decoding Sales & Revenue Patterns in Europe</h3>
+                        <p>Analyzed product orders, profits, and sales distribution across European regions from 2011 to 2014, identifying key market trends and opportunities.</p>
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>Power BI</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <a href="projects/project5.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project6.jpg" alt="Online Shopper Behavior">
+                    </div>
+                    <div class="project-info">
+                        <h3>Click & Buy: Understanding Online Shopper Behavior</h3>
+                        <p>Applied KNN Classification and K-means Clustering techniques to analyze and predict online shopping behavior patterns and customer intentions.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Classification</span>
+                        </div>
+                        <a href="projects/project6.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project7.jpg" alt="Forest Fire Prediction">
+                    </div>
+                    <div class="project-info">
+                        <h3>Inferno Insights: Forecasting Forest Fires with ML</h3>
+                        <p>Developed a Logistic Regression model to analyze variables affecting forest fires in Northern Algeria from June to September 2012, enabling better prediction and prevention.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Logistic Regression</span>
+                            <span>Predictive Modeling</span>
+                        </div>
+                        <a href="projects/project7.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project8.jpg" alt="Olympic Trends">
+                    </div>
+                    <div class="project-info">
+                        <h3>Gold Rush: Unveiling Olympic Trends from Sydney to Rio</h3>
+                        <p>Analyzed key patterns and insights from Summer Olympics games from 2000 to 2016, identifying trends in medal distributions, athlete performance, and national success factors.</p>
+                        <div class="project-tags">
+                            <span>R</span>
+                            <span>Data Visualization</span>
+                            <span>Trend Analysis</span>
+                        </div>
+                        <a href="projects/project8.html" class="btn small">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 9 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project9.jpg" alt="Energy Performance">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sustainable Power: Analyzing Energy Performance Across Manchester</h3>
+                        <p>Analyzed energy performance of domestic buildings across Greater Manchester's local authorities from 2013 to 2023, identifying trends in sustainability and efficiency.</p>
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>Power BI</span>
+                            <span>Energy Analytics</span>
+                        </div>
+                        <a href="projects/project9.html" class="btn small">View Details</a>
+                    </div>
+                </div>
             </div>
-        </section>
-        
-        <section class="more-projects">
-            <h2>More Projects</h2>
-            <p>Check out my <a href="projects.html">projects page</a> to see more of my work, including:</p>
-            <ul class="project-list">
-                <li>Real Estate Radar: Tracking UK Property Trends</li>
-                <li>Profit Pulse: Decoding Sales & Revenue Patterns in Europe</li>
-                <li>Click & Buy: Understanding Online Shopper Behavior</li>
-                <li>Shop Smart: Unveiling Hidden Shopping Patterns with Market Basket Analysis</li>
-                <li>And more!</li>
-            </ul>
-        </section>
-    </main>
-    
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>R</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Data Analytics Tools</h3>
+                    <ul class="skill-list">
+                        <li>Power BI</li>
+                        <li>Power Apps</li>
+                        <li>Power Automate</li>
+                        <li>Pandas/NumPy</li>
+                        <li>Data Visualization Libraries</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Classification</li>
+                        <li>Clustering</li>
+                        <li>Regression</li>
+                        <li>Statistical Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>sandunry1024@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="http://www.linkedin.com/in/rys-nikini" target="_blank">linkedin.com/in/rynsanduprabha</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://nikini2002.github.io/My-Portfolio-/ " target="_blank">github.com/yourusername</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 R.Y.N. Sanduprabha</p>
+        <div class="container">
+            <p>&copy; 2025 RYN Sanduprabha. All rights reserved.</p>
+        </div>
     </footer>
-    
-    <script src="script.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
-</html>
-            
-    
+</html>    
 
